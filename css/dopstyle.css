@@ -1,0 +1,37 @@
+.navbar-header{
+	min-width: 100%;  
+}
+.navbar-nav{
+	min-width: 100%;  
+	position: relative;
+	
+}
+
+ul.navbar-nav li{
+	text-align: right;
+	
+}
+
+.container{
+	width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .nav#leftbar{
+        display: none;
+    }
+}
+
+#toTop {
+	width:100px;
+	border:1px solid #ccc;
+	background:#f7f7f7;
+	text-align:center;
+	padding:5px;
+	position:fixed;
+	bottom:10px; 
+	right:10px;
+	cursor:pointer;
+	color:#333;
+	font-size:11px;
+}
